@@ -54,11 +54,12 @@ li a {
 }
 
 .popup-content {
-  background-color: #fb8b24;
+  color: #fb8b24;
+  background-color: #ffeddf;
   margin: 100px auto;
-  padding: 24px 32px;
+  padding: 24px;
   width: min(85vw, 40ch);
-  height: 75vh;
+  height: 60vh;
   border-radius: 5px;
   box-shadow: 1px 1px 10px #858ebc;
   overflow-y: scroll;
@@ -67,10 +68,14 @@ li a {
   left: 50%;
 }
 
+.popup-content a {
+  color: #fb8b24;
+}
+
 .popup-content a:hover {
   margin: auto;
-  color: #0d1321;
-  background-color: #ffeddf;
+  color: #ffeddf;
+  background-color: #fb8b24;
 }
 
 .show {

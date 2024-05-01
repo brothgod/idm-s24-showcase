@@ -129,8 +129,6 @@ footer {
 /* smaller screen */
 @media (max-width: 1000px) {
   .title {
-    padding-left: 15px;
-    padding-right: 15px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -143,6 +141,7 @@ footer {
       "bottom-middle-container"
       "bottom-right-container";
     text-align: center;
+    font-size: 60px;
   }
 }
 

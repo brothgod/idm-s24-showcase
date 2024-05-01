@@ -129,6 +129,8 @@ footer {
 /* smaller screen */
 @media (max-width: 1000px) {
   .title {
+    padding-left: 15px;
+    padding-right: 15px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;

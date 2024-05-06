@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Aditi Gupta" />
+    <meta name="author" content="Aditi Gupta <3" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +14,7 @@
     <title>IDM Spring24 Showcase</title>
   </head>
   <body>
+    <section>
     <ul>
       <li id="openInfo"><a>?</a></li>
       <div id="infoPopup" class="popup">
@@ -52,7 +53,10 @@ Our students are artists, designers, and creative technologists working in highl
           register
         </a>
       </li>
-      <!-- <li style="float: right"><a href="#about">hide</a></li> uncomment once ascii is added to bg-->
+      <li>
+        <a href="#grad-header">projects</a>
+      </li>
+      <li style="float: right"><a href="#about">hide</a></li>
     </ul>
     <div class="title">
       <div class="left">
@@ -73,23 +77,17 @@ Our students are artists, designers, and creative technologists working in highl
       </div>
     </div>
     <br class="break-lg" />
+    <br class="break-lg" />
     <div class="info">
       <div class="left2"></div>
       <div class="middle2">
         <div class="top-middle2">
-          a public celebration of the graduate thesis and
+          a public celebration of the graduate thesis
+          and undergraduate 
           <br class="break-sm" />
-          undergraduate senior projects from the spring of 2024
+          senior projects from the spring of 2024
         </div>
         <br />
-        <div class="bottom-middle2">
-          <a
-            href="https://www.eventbrite.com/e/idm-showcase-spring-2024-tickets-884179212827"
-            target="_blank"
-          >
-            register here!
-          </a>
-        </div>
       </div>
       <br class="break-sm" />
       <div class="right2">
@@ -98,23 +96,54 @@ Our students are artists, designers, and creative technologists working in highl
             href="https://calendar.google.com/calendar/r/eventedit?text=IDM+Spring+24+Showcase!&dates=20240509T210000Z/20240510T000000Z&details=http://idm.show/S2024/&location=370+Jay+Street"
             target="_blank"
           >
-            TIME:
-          </a>
+          <span>TIME:</span></a>
           thursday may 9th | 5pm - 8pm
           <br />
           <a
             href="https://www.google.com/maps/place/370+Jay+St,+Brooklyn,+NY+11201/@40.6931479,-73.9900248,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25a4bc1eb7b11:0xe33785c6b51a38f1!8m2!3d40.6931479!4d-73.9874499!16s%2Fg%2F11c59wdx4s?coh=210790&entry=tts"
             target="_blank"
           >
-            LOCATION:
-          </a>
+            <span>LOCATION:</span></a>
           370 jay street 2nd & 3rd floors
           <br />
           brooklyn, ny 11201
         </div>
+        <br />
+        <div class="bottom-right2">
+            <a
+              href="https://www.eventbrite.com/e/idm-showcase-spring-2024-tickets-884179212827"
+              target="_blank"
+            >
+              register here!
+            </a>
+        </div>
       </div>
     </div>
-    <br />
+    <div class="cat">
+      <div class="left3"></div>
+      <div class="middle3">
+        <div class="top-middle3">see the projects</div>
+        <!-- <br> -->
+        <div class="bottom-middle3"><a href=#grad-header>&#8594 graduate thesis</a> <br> <a href="#senior-header">&#8594 undergraduate thesis</a>
+        </div>
+      </div>
+      <div class="right3"></div>
+    </div>
+  </section>
+    <div id="projects">
+      <script src="all-projects.js"></script> 
+      <br>
+      <br>
+      <br>
+      <div id="grad-header"><br>— graduate theses —</div>
+      <br>
+      <div class="projects" id="gradProjects">
+      </div>
+      <br>
+      <div id="senior-header"><br>— undergraduate theses —</div>
+      <br>
+      <div class="projects" id="seniorProjects"></div>
+    </div>
     <footer>
       <a href="http://idm.engineering.nyu.edu/" target="_blank">
         The Integrated Design & Media program</a>
@@ -130,6 +159,9 @@ Our students are artists, designers, and creative technologists working in highl
       <a href="https://www.tiktok.com/@idm_nyu?lang=en" target="_blank">
         tiktok
       </a>
+      <br>
+      <br>
+      <img src="footer.png">
     </footer>
   </body>
 </html>

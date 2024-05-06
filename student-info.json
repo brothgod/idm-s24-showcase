@@ -205,8 +205,8 @@
     "video_content": "",
     "image_path": "main-images\\Josh_Chen_main.jpg",
     "supp_path": [
-      "supp-images\\Josh_Chen_1.jpg",
-      "supp-images\\Josh_Chen_2.jpg"
+      "supp-images\\Josh_Chen_1.JPG",
+      "supp-images\\Josh_Chen_2.JPG"
     ]
   },
   {
@@ -265,7 +265,7 @@
     "instagram": "",
     "video_content": "",
     "image_path": "main-images\\Don_Cho_main.jpg",
-    "supp_path": ["supp-images\\Don_Cho_1.jpg"]
+    "supp_path": ["supp-images\\Don_Cho_1.JPG"]
   },
   {
     "email_address": "ks5012@nyu.edu",
